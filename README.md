@@ -4,6 +4,12 @@ An AI-powered college chatbot designed to answer common university-related quest
 
 The chatbot uses **Natural Language Processing (NLP)** and **Machine Learning** to understand user questions and provide relevant responses.
 
+## Live Demo
+
+Try the deployed chatbot here:
+
+[HCL University AI Chatbot](https://hcl-university-chatbot-p2ueldu2ninx8blrp4chhh.streamlit.app/)
+
 ## Features
 
 * AI-based question classification
@@ -60,14 +66,13 @@ HCL-University-chatbot/
 │
 ├── .gitignore
 ├── app.py
-├── train.py
-├── training_data.csv
-├── requirements.txt
-│
 ├── bot_response_mapping.pkl
 ├── label_encoder.pkl
+├── requirements.txt
 ├── svm.pkl
-└── tfidf_vectorizer.pkl
+├── tfidf_vectorizer.pkl
+├── train.py
+└── training_data.csv
 ```
 
 ## Installation
@@ -102,7 +107,7 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-## Running the Chatbot
+## Running the Chatbot Locally
 
 Start the Streamlit application:
 
@@ -110,7 +115,7 @@ Start the Streamlit application:
 streamlit run app.py
 ```
 
-The application will open in your browser at the local Streamlit address.
+The chatbot will open in your browser at the local Streamlit address.
 
 ## Model Files
 
@@ -145,6 +150,14 @@ When are the exams?
 How can I apply for leave?
 ```
 
+## Deployment
+
+The application is deployed using **Streamlit Community Cloud**.
+
+Live application:
+
+https://hcl-university-chatbot-p2ueldu2ninx8blrp4chhh.streamlit.app/
+
 ## Future Improvements
 
 * Improve intent classification accuracy
@@ -153,7 +166,8 @@ How can I apply for leave?
 * Add voice input and output
 * Connect the chatbot to a live university database
 * Add authentication
-* Deploy the chatbot as a public web application
+* Improve conversational context
+* Add feedback collection for chatbot responses
 
 ## Author
 
