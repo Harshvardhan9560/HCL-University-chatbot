@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <!-- HEADER -->
+       <div class="chat-header">
+
+    <div>
+        <h1>🎓 AI ChatBot</h1>
+        <p>Ask me anything about your campus</p>
+    </div>
+
+    <button id="theme-toggle" onclick="toggleTheme()">
+        🌙
+    </button>
+
+</div>
+
+
+        <!-- SUGGESTIONS -->
+        <div class="suggestions-container">
+
+            <!-- COMMON QUESTIONS -->
+            <h3>💡 Common Questions</h3>
+
+            <div class="suggestion-list">
+
+                <button onclick="askQuestion('What are the college timings?')">
+                    What are the college timings?
+                </button>
+
+                <button onclick="askQuestion('How can I contact the college office?')">
+                    How can I contact the college office?
+                </button>
+
+                <button onclick="askQuestion('Where is the library?')">
+                    Where is the library?
+                </button>
+
+                <button onclick="askQuestion('What are the admission requirements?')">
+                    What are the admission requirements?
+                </button>
+
+            </div>
+
+
+            <!-- MOST ASKED -->
+            <h3>🔥 Most Asked</h3>
+
+            <div class="suggestion-list">
+
+                <button onclick="askQuestion('What is the fee structure?')">
+                    What is the fee structure?
+                </button>
+
+                <button onclick="askQuestion('What are the exam dates?')">
+                    What are the exam dates?
+                </button>
+
+                <button onclick="askQuestion('How can I apply for leave?')">
+                    How can I apply for leave?
+                </button>
+
+            </div>
+
+
+            <!-- RECENT QUESTIONS -->
+            <h3>🕐 Recent Questions</h3>
+
+            <div
+                id="recent-questions"
+                class="suggestion-list"
+            >
+
+                <p class="no-recent">
+                    No recent questions
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- CHAT BOX -->
+        <div
+            class="chat-box"
+            id="chat-box"
+        >
+
+            <div class="message bot-message">
+
+                <div class="message-content">
+                    Hello! 👋 How can I help you today?
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- INPUT AREA -->
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="message-input"
+                placeholder="Type your question..."
+                autocomplete="off"
+            >
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="/static/script.js"></script>
+
+</body>
+
+</html>
+```

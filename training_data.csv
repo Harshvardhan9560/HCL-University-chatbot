@@ -1,0 +1,28 @@
+text,intent
+"How can I contact the college office?",college_office
+"How do I contact the college office?",college_office
+"Where is the college office?",college_office
+"What are the college office hours?",college_office
+"How can I contact administration?",college_office
+"How do I reach the administration office?",college_office
+"What is the college office phone number?",college_office
+"What is the administration contact number?",college_office
+"Where can I find the administration office?",college_office
+"I need to contact the college office",college_office
+"What is the fee structure?",fees
+"How much is the tuition fee?",fees
+"What are the college fees?",fees
+"How much does college cost?",fees
+"What is the tuition cost?",fees
+"How can I pay my fees?",fees
+"Where can I pay my college fees?",fees
+"What are the tuition charges?",fees
+"How much are the semester fees?",fees
+"Tell me about the fee structure",fees
+"What are the exam dates?",exam_schedule
+"When are the exams?",exam_schedule
+"When is the exam?",exam_schedule
+"Where can I find the exam schedule?",exam_schedule
+"What are the library hours?",campus_facilities
+"Where is the library?",campus_facilities
+"How can I access the library?",campus_facilities
